@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Fontaine Camille</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            display: flex; /* Utiliser flex pour aligner les éléments côte à côte */
+            width: 80%; 
+            max-width: 1000px;
+            margin: auto;
+            background-color: #b3cde0; /* Bleu pastel */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column, .right-column {
+            flex: 1; /* Permet à chaque colonne de prendre la même largeur */
+            padding: 20px;
+        }
+
+        .header, .info {
+            background-color: #b3cde0; /* Bleu pastel */
+            text-align: justify;
+        }
+
+        .header h1 {
+            margin: 0;
+            padding-top: 40px;
+        }
+
+        .header p {
+            color: #666;
+            margin: 0;
+            padding-top: 40px;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .left-column, .right-column {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px; /* Augmenter l'espacement entre les sections */
+        }
+
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .experience, .education {
+            margin-left: 20px;
+        }
+
+        .experience h3, .education h3 {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        .experience p, .education p {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Bande en bleu pastel qui prend toute la largeur -->
+<div class="top">
+    <div class="left-column">
+        <div class="header">
+            <h1>Fontaine Camille</h1>
+            <p>27 Rue Enrico Fermi,17000 La Rochelle <br>
+            0749215367<br>
+            camille.fontaine@etudiant.univ-lr.fr</p>
+        </div>
+    </div>
+    <div class="right-column">
+        <div class="info">
+            <h2>À propos de moi</h2>
+            <p>Étudiante en deuxième année de master en Sciences pour l’environnement, <br>
+            parcours Géosciences et géophysique du littoral, à l’Université de La Rochelle, <br>
+            je suis actuellement à la recherche d’un stage de fin d’études dans le domaine de l’étude des environnements côtiers. <br>
+            Je souhaite particulièrement me spécialiser dans l’analyse de données relatives au trait de côte,<br>
+            aux variations du niveau de la mer et aux impacts des changements climatiques.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Conteneur principal -->
+<div class="container">
+    <div class="content">
+        <!-- Colonne de gauche -->
+        <div class="left-column">
+            <div class="section skills">
+                <h2>Compétences</h2>
+                <ul>
+                    <li>Programmation (Python)</li>
+                    <li>SIG (QGIS)</li>
+                    <li>Excel</li>
+                    <li>TELEMAC</li>
+                </ul>
+            </div>
+            <div class="section qualitys">
+                <h2>Qualités</h2>
+                <ul>
+                    <li>Rigoureuse</li>
+                    <li>Autonome </li>
+                    <li>Persévérante </li>
+                    <li>Ambitieuse </li>
+                </ul>
+            </div>
+            <div class="section langues">
+                <h2>Langues</h2>
+                <p>Français - Langue maternelle</p>
+                <p>Anglais - Niveau B2</p>
+            </div>
+            <div class="section interests">
+                <h2>Centres d'intérêt</h2>
+                <ul>
+                    <li>Plongée sous-marine</li>
+                    <li>Course à pied</li>
+                    <li>CrossFit</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Colonne de droite -->
+        <div class="right-column">
+            <div class="section education">
+                <h2>Formation</h2>
+                <div>
+                    <h3><strong>Université de La Rochelle </strong></h3>
+                    <p><strong>2023-en cours</strong><br>
+                    <em>Master Sciences pour l’environnement parcours Géosciences et géophysique du littoral</em></p>
+                </div>
+                <div>
+                    <h3><strong>Université de La Réunion</strong></h3>
+                    <p><strong>2020-2023</strong><br>
+                    <em>Licence Sciences de la Terre (mention assez bien)</em></p>
+                </div>
+                <div>
+                    <h3><strong>Haute école de la Province de Liège</strong> </h3>
+                    <p><strong>2017-2019</strong><br>
+                    <em>Technologue de laboratoire médical</em></p>
+                </div>
+                <div>
+                    <h3><strong>Université Claude Bernard Lyon 1</strong></h3>
+                    <p><strong>2016-2017</strong><br>
+                    <em>Licence Sciences de la vie et de la terre</em></p>
+                </div>
+            </div>
+            <div class="section experience">
+                <h2>Expérience professionnelle</h2>
+                <div>
+                    <h3><strong>Stage de géomorphologie littorale</strong></h3>
+                    <p><strong>Avril-Mai 2024 (7 semaines)</strong><br>
+                    <em>Apports de l’imagerie spatiale pour l’étude du trait de côte dans les territoires d’Outre-Mer insulaires tropicaux français.</em></p>
+                </div>
+                <div>
+                    <h3><strong>Stage de cartographie géologique</strong></h3>
+                    <p><strong>2023 (3 mois)</strong><br>
+                    <em>En zone volcanique (Piton des Neiges) à l'ouest de La Réunion</em></p>
+                </div>
+                <div>
+                    <h3><strong>Stage de géophysique</strong></h3>
+                    <p><strong>Juillet 2021 (1 mois)</strong><br>
+                    <em>Cartographie géophysique de la zone Plaines des Cafres, Plaines des Palmistes et Piton de la Fournaise.</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
